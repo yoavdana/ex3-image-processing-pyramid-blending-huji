@@ -144,7 +144,7 @@ def blending_example1():
 def blending_example2():
     im1=read_image(relpath('externals/kramer.jpg'),2)
     im2 = (im.imread(relpath('externals/trump.jpg')) / 255).astype('float64')
-    mask=np.array((im.imread(relpath('externals\mask2.jpg')) / 255))
+    mask=np.array((im.imread(relpath('externals/mask2.jpg')) / 255))
     mask = mask.astype('bool')
     im_blend=np.zeros((np.shape(im2)[0],np.shape(im2)[1],np.shape(im2)[2]),
                       np.float64)
