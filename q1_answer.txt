@@ -1,0 +1,4 @@
+multipling each level by a number creates a filtering effect.
+each level in the laplacian pyramid is a band pass filter that contain a part of the image
+frequancies,if we shrink(mutiply by constant less than 1),or expand a certun level in the pyramid 
+we control the filtering,for example if we want to filter high freqs we will shring the firs level L0.
