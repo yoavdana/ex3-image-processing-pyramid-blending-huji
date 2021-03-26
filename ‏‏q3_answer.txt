@@ -1,2 +1,0 @@
-as we increase the pyramid levels,we add more filters to the process,as a result we will lose some information ,and the blended image will have black areas near the
-blended area.if we use small levels pyramids we will have more noise .the best result are given in 3 or 4 levels(from what i saw).
