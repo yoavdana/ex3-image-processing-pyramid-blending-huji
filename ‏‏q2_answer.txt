@@ -1,3 +1,0 @@
-as we rise the filter length we blure a grater area between the two images,as a result the edge between the images will be grater ,,and smother
-if the filter length is small we will get a sharp edge.
-the best result is a filter with size 4 or 3 ,higher give us bigger blurd area and smaller give us a sharp edge.
